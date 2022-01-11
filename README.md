@@ -1,7 +1,7 @@
                                                     #REACTJS FIREBASE ECOMMERCE WEB APP
                                                     
                                                    
-Deploy Link-https://skycommerce.netlify.app/
+Deploy Link-https://skycommercee.netlify.app/
 
 Frontend- Reactjs,redux
 
