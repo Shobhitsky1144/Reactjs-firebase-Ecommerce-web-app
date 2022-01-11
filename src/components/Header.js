@@ -4,7 +4,7 @@ import { FaBars, FaCartPlus, FaUser } from "react-icons/fa";
 import { useSelector } from "react-redux";
 
 const Header = () => {
-  const [toggle, setToggle] = useState(false);
+ 
   const { cartItems } = useSelector((state) => state.cartReducer);
   const { user } = JSON.parse(localStorage.getItem("currentUser"));
   const userid = JSON.parse(localStorage.getItem("currentUser")).user.uid;
@@ -14,9 +14,7 @@ const Header = () => {
     window.location.href = "/login";
   };
 
-  useEffect(() => {
-    cartItems.filter((obj) => console.log(setToggle(obj.userid == userid)));
-  }, []);
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
