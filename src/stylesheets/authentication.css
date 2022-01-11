@@ -1,0 +1,63 @@
+.form-control {
+  box-shadow: none;
+}
+.form-control:focus {
+  margin-top: 15px !important;
+  box-shadow: none !important;
+}
+input,
+textarea {
+  margin-top: 15px !important;
+}
+
+.register-form {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 20px;
+  background-color: white;
+}
+.register-parent {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+.register-top {
+  height: 50%;
+  background-color: #003f5c;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.z1 {
+  z-index: 9999 !important;
+}
+
+/* login page styling */
+
+.login-form {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 20px;
+  background-color: white;
+}
+.login-parent {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-bottom {
+  height: 50%;
+  background-color: #003f5c;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.z1 {
+  z-index: 9999 !important;
+}
